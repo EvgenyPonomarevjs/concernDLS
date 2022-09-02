@@ -258,35 +258,37 @@ button {
 	max-width: 300px;
 }
 .map__contact {
-	width: 400px;
+	width: 370px;
 	height: 400px;
 	position: absolute;
 	top: 36px;
 	left: 140px;
-	background-color: #fff;
-	border-radius: 3%;
+	background-image: url(/img/adress.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
 	padding: 10px;
 	text-align: center;
 }
 .map__contact h2 {
 	font-size: 24px;
 	font-weight: 800;
-	color: #000;
+	color: #fff;
 }
 .map__contact p {
 	font-size: 18px;
 	font-weight: 400;
-	color: #000;
+	color: #fff;
 }
 .map__contact a {
 	font-size: 18px;
 	font-weight: 400;
-	color: #000;
+	color: #fff;
 }
 .map__contact h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #000;
+	color: #fff;
 }
 
 [class*="copyrights-pane"] {
@@ -305,8 +307,7 @@ button {
 	padding: 0;
 	background-color:#ccc;
 	overflow:hidden;
-	border-radius: 3%;
-	margin: 10px;
+	border-radius: 1%;
 }
 
 .smallMap {
@@ -339,7 +340,6 @@ button {
 	background-color: #000;
 	color: #fff;
 	padding-left: 10%;
-	margin-top: 100px;
 
 }
 
@@ -405,6 +405,22 @@ button {
 	background-color: #fff;
 	color: #000;
 }
+
+
+/* Кнопка наверх*/
+
+.scrollup{
+	z-index: 1000;
+	width:40px;
+	height:40px;
+	opacity:0.6;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;
+	text-indent:-9999px;
+	background: url('/img/icon_top.png') no-repeat;
+	}
 
 /* ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
 
@@ -575,34 +591,36 @@ button {
 		max-width: 300px;
 	}
 	.map__contact {
-		width: 250px;
+		width: 270px;
 		height: 300px;
 		position: absolute;
-		top: 34px;
+		top: 43px;
 		left: 90px;
-		background-color: #fff;
+		background-image: url(/img/adress.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
 		border-radius: 3%;
 		text-align: center;
 	}
 	.map__contact h2 {
 		font-size: 20px;
 		font-weight: 800;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact a {
 		font-size: 16px;
 		font-weight: 400;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact p {
 		font-size: 16px;
 		font-weight: 400;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact h3 {
 		font-size: 18px;
 		font-weight: 600;
-		color: #000;
+		color: #fff;
 	}
 	#map {
 		width: 100%;
@@ -653,7 +671,6 @@ button {
 		background-color: #000;
 		justify-content: center;
 		color: #fff;
-		margin-top: 100px;
 	}
 	.social-wrap {
 		display: block;
@@ -682,6 +699,9 @@ button {
 		color: #000;
 		margin-top: 50px;
 	}
+	.scrollup{
+		right:50px;
+		}
 }
 
 
@@ -849,12 +869,14 @@ button {
 	} */
 
 	.map__contact {
-		width: 200px;
+		width: 250px;
 		height: 300px;
 		position: absolute;
-		top: 15px;
-		left: 90px;
-		background-color: #fff;
+		top: 35px;
+		left: 80px;
+		background-image: url(/img/adress.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
 		border-radius: 3%;
 		text-align: center;
 	}
@@ -866,17 +888,17 @@ button {
 	.map__contact a {
 		font-size: 14px;
 		font-weight: 400;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact p {
 		font-size: 14px;
 		font-weight: 400;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact h3 {
 		font-size: 16px;
 		font-weight: 600;
-		color: #000;
+		color: #fff;
 	}
 	#map {
 		width: 100%;
@@ -928,17 +950,21 @@ button {
 		background-color: #000;
 		justify-content: center;
 		color: #fff;
-		margin-top: 100px;
 	}
+	.scrollup{
+		right:40px;
+		}
 }
 @media screen and (max-width: 450px) {
 	.map__contact {
-		width: 150px;
-		height: 250px;
+		width: 201px;
+		height: 214px;
 		position: absolute;
-		top: 40px;
+		top: 50px;
 		left: 3px;
-		background-color: #fff;
+		background-image: url(/img/adress.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
 		border-radius: 3%;
 		text-align: center;
 	}
@@ -950,17 +976,17 @@ button {
 	.map__contact a {
 		font-size: 12px;
 		font-weight: 400;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact p {
 		font-size: 12px;
 		font-weight: 400;
-		color: #000;
+		color: #fff;
 	}
 	.map__contact h3 {
 		font-size: 14px;
 		font-weight: 600;
-		color: #000;
+		color: #fff;
 	}
 	#map {
 		width: 100%;
@@ -996,4 +1022,7 @@ button {
 	.img__pokupka {
 		padding: 0px 0px 0px 12%;
 	}
+	.scrollup{
+		right:25px;
+		}
 }
