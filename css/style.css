@@ -263,7 +263,7 @@ button {
 	position: absolute;
 	top: 36px;
 	left: 140px;
-	background-image: url(/img/adress.svg);
+	background-image: url(../img/adress.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	
@@ -419,7 +419,7 @@ button {
 	right:100px;
 	display:none;
 	text-indent:-9999px;
-	background: url('/img/icon_top.png') no-repeat;
+	background: url('../img/icon_top.png') no-repeat;
 	}
 
 /* ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
@@ -596,7 +596,7 @@ button {
 		position: absolute;
 		top: 43px;
 		left: 90px;
-		background-image: url(/img/adress.svg);
+		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		border-radius: 3%;
@@ -874,7 +874,7 @@ button {
 		position: absolute;
 		top: 35px;
 		left: 80px;
-		background-image: url(/img/adress.svg);
+		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		border-radius: 3%;
@@ -962,7 +962,7 @@ button {
 		position: absolute;
 		top: 50px;
 		left: 3px;
-		background-image: url(/img/adress.svg);
+		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		border-radius: 3%;
