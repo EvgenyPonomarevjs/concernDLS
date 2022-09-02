@@ -1,0 +1,153 @@
+#side-checkbox {
+    display: none;
+}
+@media (min-width: 1361px) {
+.side-panel  {
+    display: none;
+}
+.side-button-1-wr  {
+    display: none;
+}
+}
+.side-panel {
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	right: -475px;
+	background: #E2E2E2;
+	transition: all 0.5s;   
+	width: 475px;
+	height: 100vh;
+	box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+	padding: 40px 20px;
+}
+.side-title {
+	font-size: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #BFE2FF;
+}
+.side-button-1-wr {
+	text-align: center; 
+	height: 0px;
+}
+.side-button-1 {
+	display: inline-block;
+}
+.side-button-1 .side-b {
+	text-decoration: none;
+	position: absolute;
+	font-size: 20px;
+	line-height: 20px;
+ 	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase; 
+	cursor: pointer; 
+}
+.side-button-1 .side-b:hover,
+.side-button-1 .side-b:active,
+.side-button-1 .side-b:focus {
+	color: #FFF;
+}
+.side-button-1 .side-b:after,
+.side-button-1 .side-b:before {
+	position: absolute;
+	height: 4px;
+	left: 50%;
+	bottom: -6px;
+	content: "";
+	transition: all 280ms ease-in-out;
+	width: 0;
+}
+.side-button-1 .side-close {
+	display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-open { 
+	display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-close {
+	display: block;
+}
+#side-checkbox:checked + .side-panel {
+	right: 0px;
+}
+.side-button-2 {
+	font-size: 96px;
+	border-radius: 20px;
+	position: absolute;
+	z-index: 1;
+	top: 68px;
+	right: 392px;
+	cursor: pointer;
+	transform: rotate(45deg);
+	color: #000;	
+	transition: all 280ms ease-in-out;	
+}
+.side-button-2:hover {
+	transform: rotate(45deg) scale(1.1);	
+	color: #FFF;
+}
+
+.grid__vertikal__menu {
+	display: grid;
+	grid-template-rows: repeat(5, 64px);
+	padding: 232px 0px 0px 10px;
+	justify-items: start;
+	align-items: start;
+}
+.grid__vertikal__menu a {
+	font-size: 2em;
+	font-weight: 600;
+	color: #000;
+}
+
+@media (max-width: 740px) {
+
+	.side-panel {
+		position: fixed;
+		z-index: 999999;
+		top: 0;
+		right: -325px;
+		background: #E2E2E2;
+		transition: all 0.5s;   
+		width: 220px;
+		height: 100vh;
+		box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+		padding: 40px 9px;
+	}
+
+	.side-button-2 {
+		font-size: 51px;
+		border-radius: 20px;
+		position: absolute;
+		z-index: 1;
+		top: 35px;
+		right: 183px;
+		cursor: pointer;
+		transform: rotate(45deg);
+		color: #000;	
+		transition: all 280ms ease-in-out;	
+	}
+
+	.side-button-1 .side-b {
+		text-decoration: none;
+		position: absolute;
+ 		cursor: pointer; 
+	}
+	
+
+
+
+	.grid__vertikal__menu {
+		display: grid;
+		grid-template-rows: repeat(5, 33px);
+		padding: 100px 0px 0px 0px;
+		justify-items: start;
+		align-items: start;
+	}
+	.grid__vertikal__menu a {
+		font-size: 0.95em;
+		font-weight: 600;
+		color: #000;
+	}
+	}
