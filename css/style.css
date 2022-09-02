@@ -836,12 +836,12 @@ button {
 		color: #fff;
 	}
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	.wrap__item {
 		width: 250px;
 	}
 	.txt_arenda {
-		padding: 0px 40px 0px 49px;
+		padding: 0px 40px 0px 12%;
 	}
 	.social-wrap-txt {
 		width: 100%;
@@ -851,13 +851,13 @@ button {
 	}
 
 	.img__arenda {
-		padding: 24px 0px 0px 49px;
+		padding: 24px 0px 0px 12%;
 	}
 	.txt_pokupka {
-		padding: 30px 84px 0px 49px;
+		padding: 30px 84px 0px 12%;
 	}
 
 	.img__pokupka {
-		padding: 0px 0px 0px 49px;
+		padding: 0px 0px 0px 12%;
 	}
 }
