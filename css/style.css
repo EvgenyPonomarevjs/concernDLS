@@ -10,7 +10,7 @@ html {
 *::after {
 	box-sizing: inherit;
 }
-
+html, body {width: auto!important; overflow-x: hidden!important} 
 body {
 	min-width: 20em;
 	margin: 0;
@@ -21,7 +21,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	background: #fff;
+	-webkit-text-size-adjust: none;
+	-webkit-overflow-scrolling: touch;
 }
+a, label{
+	-webkit-tap-highlight-color: transparent;
+}
+input[type=text], input[type=submit], textarea{
+	-webkit-appearance: none;
+} 
+
 
 a {
 	text-decoration: none;
@@ -885,7 +894,7 @@ button {
 		height: 300px;
 		position: absolute;
 		top: 35px;
-		right: 90px;
+		right: 20px;
 		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -969,11 +978,11 @@ button {
 }
 @media screen and (max-width: 450px) {
 	.map__contact {
-		width: 201px;
+		width: 183px;
 		height: 214px;
 		position: absolute;
-		top: 50px;
-		right: 5px;
+		top: 72px;
+		right: 1px;
 		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -984,21 +993,25 @@ button {
 		font-size: 16px;
 		font-weight: 800;
 		color: #000;
+		line-height: 0.8;
 	}
 	.map__contact a {
 		font-size: 12px;
 		font-weight: 400;
 		color: #fff;
+		line-height: 0.8;
 	}
 	.map__contact p {
 		font-size: 12px;
 		font-weight: 400;
 		color: #fff;
+		line-height: 0.8;
 	}
 	.map__contact h3 {
 		font-size: 14px;
 		font-weight: 600;
 		color: #fff;
+		line-height: 0.8;
 	}
 	#map {
 		width: 100%;
