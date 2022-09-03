@@ -423,6 +423,7 @@ button {
 	display:none;
 	text-indent:-9999px;
 	background: url('../img/icon_top.png') no-repeat;
+	background-size: contain;
 	}
 
 /* ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
