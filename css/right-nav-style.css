@@ -13,10 +13,11 @@
 	position: fixed;
 	z-index: 999999;
 	top: 0;
-	right: -475px;
-	background: #E2E2E2;
+	right: -1450px;
+	background: #000;
 	transition: all 0.5s;   
-	width: 475px;
+	width: 100%;
+	max-width: 1450px;
 	height: 100vh;
 	box-shadow: 10px 0 20px rgba(0,0,0,0.4);
 	padding: 40px 20px;
@@ -72,61 +73,54 @@
 	right: 0px;
 }
 .side-button-2 {
-	font-size: 96px;
+	font-size: 120px;
 	border-radius: 20px;
 	position: absolute;
 	z-index: 1;
-	top: 68px;
-	right: 392px;
+	top: 50px;
+	right: 50px;
 	cursor: pointer;
 	transform: rotate(45deg);
-	color: #000;	
+	color: #fff;	
 	transition: all 280ms ease-in-out;	
 }
 .side-button-2:hover {
 	transform: rotate(45deg) scale(1.1);	
-	color: #FFF;
+	color: #fff;
 }
 
 .grid__vertikal__menu {
 	display: grid;
-	grid-template-rows: repeat(5, 64px);
-	padding: 232px 0px 0px 10px;
+	grid-template-rows: repeat(5, 84px);
+	padding: 232px 0px 0px 50px;
 	justify-items: start;
 	align-items: start;
 }
 .grid__vertikal__menu a {
-	font-size: 2em;
-	font-weight: 600;
-	color: #000;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #fff;
 }
 
 @media (max-width: 740px) {
 
 	.side-panel {
-		position: fixed;
-		z-index: 999999;
-		top: 0;
-		right: -325px;
-		background: #E2E2E2;
+		right: -740px;
 		transition: all 0.5s;   
-		width: 220px;
+		width: 100%;
+		max-width: 740px;
 		height: 100vh;
 		box-shadow: 10px 0 20px rgba(0,0,0,0.4);
 		padding: 40px 9px;
 	}
 
 	.side-button-2 {
-		font-size: 51px;
+		font-size: 80px;
 		border-radius: 20px;
 		position: absolute;
 		z-index: 1;
 		top: 35px;
-		right: 183px;
-		cursor: pointer;
-		transform: rotate(45deg);
-		color: #000;	
-		transition: all 280ms ease-in-out;	
+		right: 50px;
 	}
 
 	.side-button-1 .side-b {
@@ -139,15 +133,23 @@
 
 
 	.grid__vertikal__menu {
-		display: grid;
-		grid-template-rows: repeat(5, 33px);
-		padding: 100px 0px 0px 0px;
+		grid-template-rows: repeat(5, 63px);
+		padding: 100px 0px 0px 30px;
 		justify-items: start;
 		align-items: start;
 	}
 	.grid__vertikal__menu a {
-		font-size: 0.95em;
-		font-weight: 600;
-		color: #000;
+		font-size: 2em;
+		font-weight: 700;
 	}
+	}
+
+	@media (max-width: 450px) {
+		.grid__vertikal__menu a {
+			font-size: 1.5em;
+			font-weight: 600;
+		}
+		.side-button-2 {
+			font-size: 50px;
+		}
 	}
