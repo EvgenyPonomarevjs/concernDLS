@@ -126,7 +126,7 @@ button {
 
 .grid__header {
 	display: grid;
-	grid-template-columns: 1fr 640px 800px 1fr;
+	grid-template-columns: 1fr 530px 800px 1fr;
 	grid-template-rows: 445px 458px;
 	background-image: url(../img/foto__header.jpg);
 	background-repeat: no-repeat;
@@ -153,7 +153,7 @@ button {
 
 .grid__about {
 	display: grid;
-	grid-template-columns: 1fr 648px 792px 1fr;
+	grid-template-columns: 1fr 550px 792px 1fr;
 	grid-template-rows: 725px;
 }
 
@@ -338,7 +338,7 @@ button {
 
 .grid__footer {
 	display: grid;
-	grid-template-columns: 1fr 560px 720px 1fr;
+	grid-template-columns: 1fr 638px 588px 1fr;
 	grid-template-rows: 62px 100px;
 	background-color: #000;
 	color: #fff;
