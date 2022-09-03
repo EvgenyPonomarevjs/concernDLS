@@ -392,6 +392,7 @@ button {
 .social-wrap {
 	display: flex;
 	justify-content: space-between;
+	
 	align-items: center;
 }
 .social-wrap-txt h3 {
