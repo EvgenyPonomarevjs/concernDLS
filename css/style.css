@@ -338,7 +338,7 @@ button {
 
 .grid__footer {
 	display: grid;
-	grid-template-columns: 1fr 720px 720px 1fr;
+	grid-template-columns: 1fr 560px 720px 1fr;
 	grid-template-rows: 62px 100px;
 	background-color: #000;
 	color: #fff;
@@ -956,7 +956,7 @@ button {
 		display: grid;
 		grid-template-columns: 320px;
 		grid-template-rows: 60px;
-		padding: 17px 0px 0px 30px;
+		padding: 17px 0px 83px 30px;
 		font-size: 0.8em;
 		background-color: #000;
 		justify-content: center;
