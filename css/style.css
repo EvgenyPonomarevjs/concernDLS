@@ -265,7 +265,7 @@ button {
 	height: 400px;
 	position: absolute;
 	top: 36px;
-	left: 140px;
+	right: 150px;
 	background-image: url(../img/adress.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -602,7 +602,7 @@ button {
 		height: 300px;
 		position: absolute;
 		top: 43px;
-		left: 90px;
+		right: 100px;
 		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -782,7 +782,7 @@ button {
 	}
 
 	.img__about {
-		padding: 7px 14px 0px 15px;
+		padding: 15px 14px 0px 15px;
 	}
 	.grid__arenda {
 		width: 100%;
@@ -885,7 +885,7 @@ button {
 		height: 300px;
 		position: absolute;
 		top: 35px;
-		left: 80px;
+		right: 90px;
 		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -973,7 +973,7 @@ button {
 		height: 214px;
 		position: absolute;
 		top: 50px;
-		left: 3px;
+		right: 5px;
 		background-image: url(../img/adress.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
