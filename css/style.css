@@ -414,15 +414,14 @@ button {
 }
 
 .wrap__sec-social {
-	background-color: #fff;
-	color: #000;
+	background-color: #000;
+	color: #fff;
 }
 
 /* блок наши принципы*/
 
 .principle {
-	padding: 100px 0 0px 0;
-	border-bottom: 2px solid #DCDCDC;
+	padding: 100px 0 100px 0;
 
 }
 .principle-wrap {
@@ -449,22 +448,8 @@ button {
 	list-style-type: none;
 	padding: 20px;
 }
-.bord {
-	width: 1px;
-	height: 100%;
-	min-height: 350px;
-	border-right: 2px solid #DCDCDC;
-	margin-top: 20px;
-}
 .principle__item li{
 	margin-bottom: 2px;
-}
-
-
-
-.wrap__sec-social {
-	background-color: #fff;
-	color: #000;
 }
 .principle__block {
 	display: flex;
@@ -757,15 +742,7 @@ button {
 	.social-wrap-txt h3 {
 		line-height: 0.9em;
 	}
-	.social-wrap-img {
-		width: 100%;
-		max-width: 375px;
-		height: 100%;
-		max-height: 376px;
-	}
 	.wrap__sec-social {
-		background-color: #fff;
-		color: #000;
 		margin-top: 50px;
 	}
 	.scrollup{
@@ -774,11 +751,7 @@ button {
 
 		/* блок наши принципы*/
 
-.principle {
-	padding: 100px 0 100px 0;
-	border-bottom: 2px solid #DCDCDC;
 
-}
 .principle-wrap {
 	max-width: 1350px;
 }
@@ -791,8 +764,6 @@ button {
 .principle__item {
 	max-width: 625px;
 	font-size: 24px;
-}
-.bord {
 }
 .principle__block {
 	display: flex;
@@ -916,7 +887,6 @@ button {
 		width: 300px;
 		font-size: 16px;
 		font-weight: 600;
-		line-height: 1.2em;
 		
 	}
 
@@ -1058,11 +1028,9 @@ button {
 		}
 
 				/* блок наши принципы*/
-
 .principle {
-	padding: 50px 0 50px 0;
-	border-bottom: 2px solid #DCDCDC;
-
+	padding: 100px 0 50px 0;
+				
 }
 .principle-wrap {
 	max-width: 740px;
@@ -1074,7 +1042,6 @@ button {
 }
 .principle__heading {
 	width: 263px;
-	line-height: 1.2em;
 }
 .principle-wrap-txt h3 {
 	line-height: 1.1em;
@@ -1083,9 +1050,6 @@ button {
 	max-width: 370px;
 	font-size: 16px;
 	padding: 0;
-}
-.bord {
-	display: none;
 }
 .principle__block {
 	display: block;
@@ -1161,6 +1125,10 @@ button {
 
 	.img__pokupka {
 		padding: 0px 0px 0px 12%;
+	}
+	.principle-wrap {
+		max-width: 350px;
+		padding: 10px;
 	}
 	.scrollup{
 		right:25px;
