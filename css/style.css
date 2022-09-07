@@ -935,7 +935,7 @@ button {
 		position: absolute;
 		top: 72px;
 		right: 1px;
-		padding-top: 0px;
+		padding-top: 12px;
 	}
 	.map__contact h2 {
 		font-size: 16px;
@@ -945,17 +945,17 @@ button {
 	.map__contact a {
 		font-size: 12px;
 		font-weight: 400;
-		line-height: 0.8;
+		line-height: 0.5em;
 	}
 	.map__contact p {
 		font-size: 12px;
 		font-weight: 400;
-		line-height: 0.8;
+		line-height: 0.8em;
 	}
 	.map__contact h3 {
 		font-size: 14px;
 		font-weight: 600;
-		line-height: 0.8;
+		line-height: 0.8em;
 	}
 	#map {
 		width: 100%;
