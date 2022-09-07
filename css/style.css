@@ -928,7 +928,7 @@ button {
 	.map__contact h2 {
 		font-size: 16px;
 		font-weight: 800;
-		line-height: 0.9em;
+		line-height: 0.5em;
 	}
 	.map__contact a {
 		font-size: 12px;
@@ -939,7 +939,7 @@ button {
 	.map__contact p {
 		font-size: 12px;
 		font-weight: 400;
-		line-height: 0.5em;
+		line-height: 0.9em;
 		margin: 0;
 	}
 	.map__contact h3 {
