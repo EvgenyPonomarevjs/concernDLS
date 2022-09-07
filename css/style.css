@@ -286,16 +286,20 @@ button {
 	font-size: 24px;
 	font-weight: 800;
 	color: #fff;
+	line-height: 1em;
+	margin: 0;
 }
 .map__contact p {
 	font-size: 18px;
 	font-weight: 400;
 	color: #fff;
+	line-height: 1em;
 }
 .map__contact a {
 	font-size: 18px;
 	font-weight: 400;
 	color: #fff;
+	line-height: 1em;
 }
 .map__contact h3 {
 	font-size: 20px;
@@ -350,6 +354,7 @@ button {
 	font-weight: 400;
 	background-color: #000;
 	color: #fff;
+	line-height: 0.3em;
 }
 .footer__wrap {
 	width: 100%;
@@ -358,6 +363,9 @@ button {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
+}
+.footer__text__1 {
+	font-size: 10px;
 }
 .footer__text__3 {
 	font-size: 0.89em;
@@ -438,6 +446,15 @@ button {
 .principle__block {
 	display: flex;
 	justify-content: space-between;
+}
+.principle__item img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+.prin__wrap {
+	display: flex;
+	align-items: center;
 }
 
 
