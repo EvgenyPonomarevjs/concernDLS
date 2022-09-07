@@ -135,7 +135,7 @@ button {
 
 .grid__header {
 	display: grid;
-	grid-template-columns: 1fr 530px 800px 1fr;
+	grid-template-columns: 1fr 430px 920px 1fr;
 	grid-template-rows: 445px 458px;
 	background-image: url(../img/foto__header.jpg);
 	background-repeat: no-repeat;
@@ -248,16 +248,6 @@ button {
 .txt_pokupka h3 {
 	line-height: 1.1em;
 }
-
-/* .grid__map {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	max-width: 1300px;
-	margin: 0 auto;
-} */
-
 .img__map {
 	z-index: 50;
 	position: relative;
@@ -278,8 +268,7 @@ button {
 	background-image: url(../img/adress.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
-	
-	padding: 10px;
+	padding: 56px 0px 0px 0px;
 	text-align: center;
 }
 .map__contact h2 {
@@ -418,7 +407,7 @@ button {
 }
 .principle-wrap {
 	width: 100%;
-	max-width: 1450px;
+	max-width: 1350px;
 	margin: 0 auto;
 }
 .principle__heading {
@@ -643,83 +632,30 @@ button {
 		width: 270px;
 		height: 300px;
 		position: absolute;
-		top: 43px;
+		top: 24px;
 		right: 100px;
-		background-image: url(../img/adress.svg);
-		background-repeat: no-repeat;
-		background-size: contain;
+		padding-top: 23px;
 		border-radius: 3%;
-		text-align: center;
 	}
 	.map__contact h2 {
 		font-size: 20px;
 		font-weight: 800;
-		color: #fff;
 	}
 	.map__contact a {
 		font-size: 16px;
 		font-weight: 400;
-		color: #fff;
 	}
 	.map__contact p {
 		font-size: 16px;
 		font-weight: 400;
-		color: #fff;
 	}
 	.map__contact h3 {
 		font-size: 18px;
 		font-weight: 600;
-		color: #fff;
 	}
 	#map {
 		width: 100%;
 		height: 330px;
-		border: 1px solid #DCDCDC;
-		border-radius: 3%;
-		margin: 0;
-		padding: 0;
-		background-color:#ccc;
-		overflow:hidden;
-		margin-top: 20px;
-	}
-
-	.grid__map_small {
-		display: grid;
-		grid-template-columns: 744px;
-		grid-template-rows: 860px 100px 140px;
-		justify-content: center;
-		background-image: url(../img/map2.png);
-		background-repeat: no-repeat;
-		background-position: top right;
-
-	}
-
-	.grid__map_small img {
-		padding: 339px 0px 0px 37px;
-	}
-
-	.txt__map__small {
-		padding: 69px 0px 0px 37px;
-		font-size: 1.26em;
-	}
-
-	.grid__map__smallrekveziti {
-		display: grid;
-		grid-template-columns: 1.3fr 3fr;
-		padding: 14px 0px 0px 37px;
-		font-size: 1em;
-		color: #000;
-	}
-
-	.grid__footer_small {
-		display: grid;
-		grid-template-columns: 694px;
-		grid-template-rows: 120px;
-		padding: 26px 0px 0px 31px;
-		font-size: 1.1em;
-		background-color: #000;
-		justify-content: center;
-		color: #fff;
 	}
 	.social-wrap {
 		display: block;
@@ -914,7 +850,6 @@ button {
 		display: none;
 	}
 	.img__map {
-		margin-top: 20px;
 		margin-left: 0px;
 		font-size: 38px;
 	}
@@ -936,11 +871,7 @@ button {
 		position: absolute;
 		top: 35px;
 		right: 20px;
-		background-image: url(../img/adress.svg);
-		background-repeat: no-repeat;
-		background-size: contain;
-		border-radius: 3%;
-		text-align: center;
+		padding-top: 23px;
 	}
 	.map__contact h2 {
 		font-size: 18px;
@@ -950,58 +881,21 @@ button {
 	.map__contact a {
 		font-size: 14px;
 		font-weight: 400;
-		color: #fff;
 	}
 	.map__contact p {
 		font-size: 14px;
 		font-weight: 400;
-		color: #fff;
+		padding: 0px 5px 0px 5px;
 	}
 	.map__contact h3 {
 		font-size: 16px;
 		font-weight: 600;
-		color: #fff;
 	}
 	#map {
 		width: 100%;
 		height: 330px;
-		border: 1px solid #DCDCDC;
-		border-radius: 3%;
-		margin: 0;
-		padding: 0;
-		background-color:#ccc;
-		overflow:hidden;
-		margin-top: 20px;
 	}
 
-	.grid__map_small {
-		display: grid;
-		grid-template-columns: 320px;
-		grid-template-rows: 100px 186px 140px;
-		justify-content: center;
-		background-image: url(../img/map3.png);
-		background-repeat: no-repeat;
-		background-position: top right;
-
-
-	}
-
-	.grid__map_small img {
-		padding: 129px 147px 0px 15px;
-	}
-
-	.txt__map__small {
-		padding: 253px 0px 0px 15px;
-		font-size: 0.63em;
-	}
-
-	.grid__map__smallrekveziti {
-		display: grid;
-		grid-template-columns: 1.5fr 3fr;
-		padding: 86px 0px 0px 15px;
-		font-size: 0.5em;
-		color: #000;
-	}
 	.grid__footer {
 		font-size: 12px;
 		padding: 0px 20px 0px 20px;
@@ -1045,11 +939,7 @@ button {
 		position: absolute;
 		top: 72px;
 		right: 1px;
-		background-image: url(../img/adress.svg);
-		background-repeat: no-repeat;
-		background-size: contain;
-		border-radius: 3%;
-		text-align: center;
+		padding-top: 0px;
 	}
 	.map__contact h2 {
 		font-size: 16px;
@@ -1060,30 +950,21 @@ button {
 	.map__contact a {
 		font-size: 12px;
 		font-weight: 400;
-		color: #fff;
 		line-height: 0.8;
 	}
 	.map__contact p {
 		font-size: 12px;
 		font-weight: 400;
-		color: #fff;
 		line-height: 0.8;
 	}
 	.map__contact h3 {
 		font-size: 14px;
 		font-weight: 600;
-		color: #fff;
 		line-height: 0.8;
 	}
 	#map {
 		width: 100%;
 		height: 330px;
-		border: 1px solid #DCDCDC;
-		border-radius: 3%;
-		margin: 0;
-		padding: 0;
-		background-color:#ccc;
-		overflow:hidden;
 		margin-top: 20px;
 	}
 	.wrap__item {
